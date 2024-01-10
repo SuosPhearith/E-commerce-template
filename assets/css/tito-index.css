@@ -1,0 +1,137 @@
+.tito-home-bg1{
+    background-color: #FBEBB5;
+    height: 700px;
+}
+
+.tito-home-bg1 h1{
+    margin-left: 10%;
+    font-size: 64px;
+    font-weight: medium;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.tito-home-btn-shop{
+    width: 255px;
+    height: 64px;
+    
+}
+
+.tito-home-bg2{
+    background-color: #FAF4F4;
+}
+
+
+.tito-home-bg2-view{
+    text-align: center;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: medium;
+
+}
+
+.tito-home-bg2 h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: medium;
+    color: #000000;
+}
+
+.tito-home-bg3-header{
+    text-align: center;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: medium;
+}
+
+.tito-home-bg3-des{
+    text-align: center;
+    color: #9F9F9F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+.tito-home-bg4{
+    background-color: #FFF9E5;
+}
+
+.tito-home-bg4-new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tito-home-btn{
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    width: 255px;
+    height: 64px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.tito-home-btn:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.tito-home-bg5{
+    background-image: url("../images/ins_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.tito-shop-bg1{
+    background-image: url("../images/shop_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 316px;
+}
+
+.tito-carousel-img{
+    width: 600px;
+     height: 600px;
+}
+
+
+
+
+/* Extra Small (xs) */
+@media (max-width: 575.98px) {
+    /* Styles for xs screens go here */
+    
+}
+  
+  /* Small (sm) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+  
+  /* Medium (md) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* Styles for md screens go here */
+    
+}
+  
+  /* Large (lg) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Styles for lg screens go here */
+    
+  }
+  
+  /* Extra Large (xl) */
+  @media (min-width: 1200px) {
+    /* Styles for xl screens go here */
+  }
