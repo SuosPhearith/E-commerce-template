@@ -23,17 +23,17 @@
 
 
 .tito-home-bg2-view{
-    text-align: center;
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: medium;
-
+    border-bottom: 2px solid black;
+    width: 100px;
 }
 
 .tito-home-bg2 h4{
     font-family: 'Poppins', sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: medium;
     color: #000000;
 }
@@ -102,7 +102,13 @@
 
 .tito-carousel-img{
     width: 600px;
-     height: 600px;
+}
+.tito-home-rocket{
+    font-size: 65px;
+    width: 400px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 70px;
 }
 
 
@@ -111,24 +117,71 @@
 /* Extra Small (xs) */
 @media (max-width: 575.98px) {
     /* Styles for xs screens go here */
-    
+    .tito-carousel-img{
+        width: 150px;
+    }
+    .tito-home-rocket{
+        font-size: 25px;
+        width: 200px;
+        line-height: 30px;
+        margin-bottom: 10px !important;
+    }
+    .tito-home-bg1{
+        height: 200px;
+    }
+    .tito-home-btn-shop{
+        width: 100px;
+        height: 40px;
+    }
 }
   
   /* Small (sm) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+    .tito-carousel-img{
+        width: 200px;
+    }
+    .tito-home-rocket{
+        font-size: 30px;
+    }
+    .tito-home-bg1{
+        height: 300px;
+    }
+    .tito-home-btn-shop{
+        width: 100px;
+        height: 40px;
+    }
 }
   
   /* Medium (md) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 /* Styles for md screens go here */
-    
+    .tito-carousel-img{
+        width: 400px;
+    }
+    .tito-home-rocket{
+        font-size: 40px;
+    }
+    .tito-home-bg1{
+        height: 500px;
+    }
+    .tito-home-btn-shop{
+        width: 150px;
+        height: 50px;
+    }
 }
   
   /* Large (lg) */
   @media (min-width: 992px) and (max-width: 1199.98px) {
     /* Styles for lg screens go here */
-    
+    .tito-carousel-img{
+        width: 500px;
+    }
+    .tito-home-rocket{
+        font-size: 50px;
+    }
+    .tito-home-bg1{
+        height: 600px;
+    }
   }
   
   /* Extra Large (xl) */
