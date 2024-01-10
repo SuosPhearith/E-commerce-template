@@ -1,0 +1,147 @@
+#billing{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.Label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.Sethy-Product{
+    display: flex;
+    justify-content: space-between;
+}
+.Sethy-Bank{
+    display: flex;
+    margin-top: 30px;
+}
+.directBankTransfer{
+    margin-left: 20px;
+}
+.directBankTransfer1{
+    margin-left: 20px;
+    color: grey;
+}
+.sethy-product{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#pname{
+    font-size: 14px;
+    color: grey;
+    margin-top: 10px;
+}
+#pname span{
+    font-size: 14px;
+    color: black;
+}
+.pprice{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+#tprice{
+    font-size: 24px;
+    color: gold;
+    margin-top: 10px;
+}
+.Detail{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    color: grey;
+}
+
+#policy{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    color: black;
+}
+.submitbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.submitbtn button{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.submitbtn button:hover{
+    background-color: rgb(120, 125, 128);
+}
+#line{
+    width: 100%;
+    border: 1px solid grey;
+}
+.sethy-cart-table tr th{
+    background-color:#FFF9E5 ;
+}
+@media (max-width: 575.98px){
+    .sethy-cart-tablebody img{
+        width: 30px;
+        height: 30px;
+        display: none;
+    }
+    .sethy-cart-qty{
+        width: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .sethy-cart-tablebody img{
+        width: 40px;
+        height: 40px;
+        display: none;
+    }
+    .sethy-cart-qty{
+        width: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .sethy-cart-tablebody img{
+        width: 50px;
+        height: 50px;
+    }
+    .sethy-cart-qty{
+        width: 20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .sethy-cart-tablebody img{
+        width: 60px;
+        height: 60px;
+    }
+    .sethy-cart-qty{
+        width: 20px;
+    }
+}
+@media (min-width: 1200px){
+    .sethy-cart-tablebody img{
+        width: 70px;
+        height: 70px;
+    }
+    .sethy-cart-qty{
+        width: 20px;
+    }
+}
+.sethy-cart-tablebody{
+    text-align: center;
+    align-items: center;
+}
+.sethy-cart-td{
+    margin-top: 20px;
+}
+.sethy-cart-qty{
+    width: 20px;
+}
+.sethy-container{
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+}
+

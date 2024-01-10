@@ -1,0 +1,153 @@
+<!doctype html>
+<htm lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/fonts/remixicon.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body>
+    <div class="sethy-container">
+        <form>
+            <div class="container">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+
+                    <!-- Header Billing -->
+                    <div id="billing">Billing details</div>
+                    
+                    <!-- Full Name -->
+                    <div class="mb-3">
+                        <label for="FullName" class="form-label Label">Full Name</label>
+                        <input type="text" class="form-control" id="FullName" placeholder="John Doe">
+                    </div>
+
+                    <!-- Company Name -->
+                    <div class="mb-3">
+                        <label for="CompanyName" class="form-label Label">Company Name (Optional)</label>
+                        <input type="text" class="form-control" id="CompanyName" placeholder="Google">
+                    </div>
+
+                    <!-- Country / Region -->
+                    <div class="mb-3">
+                        <label for="Country" class="Label">Country / Region</label>
+                        <select class="form-select mt-2" aria-label="Default select example" id="Country">
+                            <option selected>Cambodia</option>
+                            <option value="1">Vietnam</option>
+                            <option value="2">Thailand</option>
+                        </select>
+                    </div>
+
+                    <!-- Street address -->
+                    <div class="mb-3">
+                        <label for="StreetAddress" class="form-label Label">Street Address</label>
+                        <input type="text" class="form-control" id="StreetAddress" placeholder="St 123,Sangkat Chbar Ompov,Khan Chbar Ompov">
+                    </div>
+
+                    <!-- Town / City -->
+                    <div class="mb-3">
+                        <label for="Town" class="form-label Label">Town / City</label>
+                        <input type="text" class="form-control" id="Town" placeholder="Phnom Penh">
+                    </div>
+
+                    <!-- Province -->
+                    <div class="mb-3">
+                        <label for="Province" class="Label">Province</label>
+                        <select class="form-select mt-2" aria-label="Default select example" id="Province">
+                            <option selected>Siemreap</option>
+                            <option value="1">Kompot</option>
+                            <option value="2">Kep</option>
+                        </select>
+                    </div>
+
+                    <!-- ZIP code -->
+                    <div class="mb-3">
+                        <label for="Zip" class="form-label Label">ZIP code</label>
+                        <input type="text" class="form-control" id="Zip" placeholder="12345">
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="mb-3">
+                        <label for="Phone" class="form-label Label">Phone</label>
+                        <input type="tel" class="form-control" id="Phone" placeholder="0123456789">
+                    </div>
+
+                    <!-- Email address -->
+                    <div class="mb-3">
+                        <label for="Email" class="form-label Label">Email address</label>
+                        <input type="email" class="form-control" id="Email" placeholder="johndoe@gmail.com">
+                    </div>
+                  </div>
+                  <div class="col-md-1"></div>
+                  <div class="col-12 col-md-5">
+
+                    <!-- Product Checkout -->
+                    <!-- Row1 -->
+                    <div class="Sethy-Product">
+                        <div class="sethy-product">Product</div>
+                        <div class="sethy-product">Subtotal</div>
+                    </div>
+
+                    <!-- Row2 -->
+                    <div class="Sethy-Product">
+                        <div id="pname">Asgaard sofa 
+                            <span>x 1</span>
+                        </div>
+                        <div class="pprice">Rs. 250,000.00</div>
+                    </div>
+
+                    <!-- Row3 -->
+                    <div class="Sethy-Product">
+                        <div class="pprice">Subtotal</div>
+                        <div class="pprice">Rs. 250,000.00</div>
+                    </div>
+
+                    <!-- Row4 -->
+                    <div class="Sethy-Product">
+                        <div class="pprice">Total</div>
+                        <div id="tprice">Rs. 250,000.00</div>
+                    </div>
+
+                    <!-- Border -->
+                    <div id="line"></div>
+
+                    <!-- Row5 -->
+                    <div class="Sethy-Bank">
+                        <i class="ri-circle-fill"></i>
+                        <div class="directBankTransfer">Direct Bank Transfer</div>
+                    </div>
+
+                    <!-- Row6 -->
+                    <div class="Detail">Make your payment directly into our bank account. Please use
+                        your Order ID as payment reference. Your order will not be
+                        shipped until the funds have cleared in our account.
+                    </div>
+                    
+                    <!-- Row7 -->
+                    <div class="Sethy-Bank">
+                        <i class="ri-circle-line"></i>
+                        <div class="directBankTransfer1">Direct Bank Transfer</div>
+                    </div>
+
+                    <!-- Row8 -->
+                    <div class="Sethy-Bank">
+                        <i class="ri-circle-line"></i>
+                        <div class="directBankTransfer1">Cash On Delivery</div>
+                    </div>
+
+                    <!-- Row9 -->
+                    <div id="policy">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <span>privacy policy.</span></div>
+                   
+                    <!-- Submit -->
+                    <div class="submitbtn">
+                        <button type="submit">Place order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </form>
+    </div>
+</body>
+</html>
