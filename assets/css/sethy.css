@@ -146,6 +146,9 @@
 .sethy-cart-td{
     text-align: center;
 }
+.sethy-cart-td i{
+    font-size: 18px;
+}
 .sethy-container{
     background-color: whitesmoke;
     padding-bottom: 50px;
