@@ -4,41 +4,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./fonts/remixicon.css">
+    <link rel="stylesheet" href="./assets/css/sethy.css">
+    <link rel="stylesheet" href="./assets/fonts/remixicon.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-  <body>
-    <div class="container text-center">
+  <body class="sethy-cart-body">
+    <div class="container-fluid text-center ">
         <form action="">
             <div class="row">
-                <div class="col-12 col-md-9">
+                <div class="col-12 col-md-12 col-lg-9">
                     <table class="table sethy-cart-table">
                         <thead>
                           <tr>
-                            <th scope="col"></th>
+                            <th scope="col" class="sethy-cart-header-img"></th>
                             <th scope="col">Product</th>
                             <th scope="col">Price</th>
                             <th scope="col">Quantity</th>
                             <th scope="col">Subtotal</th>
-                            <th scope="col">Subtotal</th>
+                            <th scope="col"></th>
                           </tr>
                         </thead>
                         <tbody class="sethy-cart-tablebody">
                           <tr>
-                            <td><img src="./image/photo_2024-01-07_22-09-56.jpg" alt="picture"></td>
+                            <td><img src="./assets/img/sethy-1st.jpg" alt="picture"></td>
                             <td class="sethy-cart-td">Asgaard sofa</td>
                             <td class="sethy-cart-td">Rs. 250,000.00</td>
-                            <td class="sethy-cart-td" class="sethy-cart-qty"><input type="number" placeholder="0"></td>
+                            <td class="sethy-cart-td sethy-inputNumber">
+                              <input type="number" id="typeNumber" class="form-control" /></td>
                             <td class="sethy-cart-td">Rs. 250,000.00</td>
-                            <td class="sethy-cart-td"><i class="ri-delete-bin-fill"></i></td>
+                            <td class="sethy-cart-td" style="color: red;"><i class="ri-delete-bin-fill"></i></td>
                           </tr>
                         </tbody>
                       </table>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-6 col-lg-3 sethy-cart-carttotal-container">
                   <div class="sethy-cart-carttotal">Cart Totals</div>
-                  <div class="sethy-cart-subtotalful">
+                  <div class="sethy-cart-totalful">
                       <div class="sethy-cart-subtotal">Subtotal</div>
                       <div class="sethy-cart-subprice">Rs. 250,000.00</div>
                   </div>
@@ -47,7 +48,7 @@
                       <div class="sethy-cart-totalprice">Rs. 250,000.00</div>
                   </div>
                   <div>
-                    <button type="submit">Check Out</button>
+                    <button type="submit" class="sethy-checkout">Check Out</button>
                   </div>
                 </div>
               </div>
