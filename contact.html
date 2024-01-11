@@ -1,76 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container text-center">
-        <div class="sethy-contact-getintouch">Get In Touch With Us</div>
-        <div class="sethy-contact-detail">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</div>
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <div class="sethy-contact-address">
-                <div class="sethy-contact-address-svg">
 
-                </div>
-                <div class="sethy-contact-address-name">
-                    Address
-                </div>
-            </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="./assets/css/sethy.css" />
+  <link rel="stylesheet" href="./assets/fonts/remixicon.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="sethy-contact-getintouch text-center">
+      Get In Touch With Us
+    </div>
+    <div class="sethy-contact-flex text-center">
+      <div class="sethy-contact-detail">
+        For More Information About Our Product & Services. Please Feel Free To
+        Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not
+        Hesitate!
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 sethy-contact-row2">
+        <div class="sethy-contact-flex1">
+          <div class="sethy-contact-address-svg">
+            <i class="ri-map-pin-2-fill"></i>
+          </div>
+          <div class="sethy-contact-address">
+            <div class="sethy-contact-address-name">Address</div>
             <div class="sethy-contact-address-info">
-                Toul Kork, Phnom Penh, Cambodia
-            </div>
-            <div class="sethy-contact-phone">
-                <div class="sethy-contact-phone-name">
-
-                </div>
-                <div class="sethy-contact-phone-name">
-                    Phone
-                </div>
-            </div>
-            <div class="sethy-contact-phone-info">
-                Mobile:  +(855) 123456789 <br>
-                Hotline: +(855) 987654321
-            </div>
-            <div class="sethy-contact-worktime">
-                <div class="sethy-contact-worktime-svg">
-
-                </div>
-                <div class="sethy-contact-worktime-name">
-                    Working Time
-                </div>
-            </div>
-            <div class="sethy-contact-worktime-info">
-                Monday-Friday: 9:00 - 22:00 <br>
-                Saturday-Sunday: 9:00 - 21:00
+              Toul Kork, Phnom Penh, Cambodia
             </div>
           </div>
-          <div class="col-12 col-md-6">
-            <form>
-                <div class="mb-3">
-                  <label for="sethy-contact-name" class="form-label">Your name</label>
-                  <input type="text" class="form-control" id="sethy-contact-name" placeholder="Abc">
-                </div>
-                <div class="mb-3">
-                  <label for="sethy-contact-email" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="sethy-contact-address" placeholder="Abc@def.com">
-                </div>
-                <div class="mb-3">
-                  <label for="sethy-contact-subject" class="form-label">Subject</label>
-                  <input type="text" class="form-control" id="sethy-contact-subject" placeholder="This is optional">
-                </div>
-                <div class="mb-3">
-                  <label for="sethy-contact-message" class="form-label">Message</label>
-                  <input type="text" class="form-control" id="sethy-contact-message" placeholder="Hi! I'd like to ask about">
-                </div>
-                
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+        </div>
+
+        <div class="sethy-contact-flex1">
+          <div class="sethy-contact-phone-name">
+            <i class="ri-phone-fill"></i>
+          </div>
+          <div class="sethy-contact-phone">
+            <div class="sethy-contact-phone-name">Phone</div>
+            <div class="sethy-contact-phone-info">
+              Mobile: +(855) 123456789 <br />
+              Hotline: +(855) 987654321
+            </div>
+          </div>
+        </div>
+
+        <div class="sethy-contact-flex1">
+          <div class="sethy-contact-worktime-svg">
+            <i class="ri-time-fill"></i>
+          </div>
+          <div class="sethy-contact-worktime">
+            <div class="sethy-contact-worktime-name">Working Time</div>
+            <div class="sethy-contact-worktime-info">
+              Monday-Friday: 9:00 - 22:00 <br />
+              Saturday-Sunday: 9:00 - 21:00
+            </div>
           </div>
         </div>
       </div>
-  </body>
+      <div class="col-12 col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="sethy-contact-name" class="form-label">Your name</label>
+            <input type="text" class="form-control" id="sethy-contact-name" placeholder="Abc" />
+          </div>
+          <div class="mb-3">
+            <label for="sethy-contact-email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="sethy-contact-address" placeholder="Abc@def.com" />
+          </div>
+          <div class="mb-3">
+            <label for="sethy-contact-subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="sethy-contact-subject" placeholder="This is optional" />
+          </div>
+          <div class="mb-3">
+            <label for="sethy-contact-message" class="form-label">Message</label>
+            <input type="text" class="form-control" id="sethy-contact-message"
+              placeholder="Hi! I'd like to ask about" />
+          </div>
+
+          <button type="submit" class="btn btn-primary sethy-contact-submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
