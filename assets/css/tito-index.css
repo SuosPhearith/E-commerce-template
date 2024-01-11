@@ -104,9 +104,16 @@
     width: 600px;
 }
 .tito-home-rocket{
-    font-size: 65px;
+    font-size: 40px;
     width: 400px;
     font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+.tito-home-rocket1 {
+    font-size: 65px;
+    width: 400px;
+    font-weight: 700;
     margin-bottom: 30px;
     line-height: 70px;
 }
@@ -126,12 +133,22 @@
         line-height: 30px;
         margin-bottom: 10px !important;
     }
+    .tito-home-rocket1{
+        font-size: 35px;
+        width: 200px;
+        line-height: 30px;
+        margin-bottom: 10px !important;
+    }
     .tito-home-bg1{
         height: 200px;
     }
     .tito-home-btn-shop{
         width: 100px;
         height: 40px;
+    }
+    .tito-home-table{
+        width: 200px !important;
+        height: 200px !important;
     }
 }
   
@@ -143,12 +160,22 @@
     .tito-home-rocket{
         font-size: 30px;
     }
+    .tito-home-rocket1{
+        font-size: 45px;
+        width: 300px;
+        line-height: 30px;
+        margin-bottom: 10px !important;
+    }
     .tito-home-bg1{
         height: 300px;
     }
     .tito-home-btn-shop{
         width: 100px;
         height: 40px;
+    }
+    .tito-home-table{
+        width: 300px !important;
+        height: 300px !important;
     }
 }
   
@@ -160,6 +187,12 @@
     }
     .tito-home-rocket{
         font-size: 40px;
+    }
+    .tito-home-rocket1{
+        font-size: 55px;
+        width: 400px;
+        line-height: 30px;
+        margin-bottom: 50px !important;
     }
     .tito-home-bg1{
         height: 500px;
@@ -178,6 +211,12 @@
     }
     .tito-home-rocket{
         font-size: 50px;
+    }
+    .tito-home-rocket1{
+        font-size: 55px;
+        width: 350px;
+        line-height: 30px;
+        margin-bottom: 60px !important;
     }
     .tito-home-bg1{
         height: 600px;
