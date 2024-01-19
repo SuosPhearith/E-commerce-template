@@ -150,6 +150,10 @@
         width: 200px !important;
         height: 200px !important;
     }
+    .tito-home-image{
+        width: 300px;
+        height: 300px;
+    }
 }
   
   /* Small (sm) */
@@ -177,6 +181,10 @@
         width: 300px !important;
         height: 300px !important;
     }
+    .tito-home-image{
+        width: 300px;
+        height: 300px;
+    }
 }
   
   /* Medium (md) */
@@ -200,6 +208,10 @@
     .tito-home-btn-shop{
         width: 150px;
         height: 50px;
+    }
+    .tito-home-image{
+        width: 300px;
+        height: 300px;
     }
 }
   
@@ -226,4 +238,15 @@
   /* Extra Large (xl) */
   @media (min-width: 1200px) {
     /* Styles for xl screens go here */
-  }
+    .tito-home-image{
+        width: 300px;
+        height: 300px;
+    }
+}
+.tito-home-card{
+    text-decoration: none;
+    color: black;
+    /* background-color: yellow; */
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
