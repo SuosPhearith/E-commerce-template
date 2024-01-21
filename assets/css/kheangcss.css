@@ -1,0 +1,142 @@
+
+.kheang-container{
+  display: flex;
+  width: 100vw;
+  padding: 180px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+}
+.kheang-body{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.body-img{
+  display: flex;
+  flex-direction: row;
+}
+.body-rate{
+  display: flex;
+  width: 300px;
+}
+.body-top-right{
+  width: 250px;
+}
+.body-detail{
+  
+}
+.text-kheang{
+  width: 500px;
+}
+.size-button{
+  display: flex;
+  width: 300px;
+  height: 50px;
+  
+}
+.btn{
+  margin-top: 10px;
+  background-color: lightgrey;
+}
+.btnselect{
+  background-color: antiquewhite;
+}
+.color-button{
+  display: flex;
+  flex-direction: row;
+}
+.btn-rounded{
+  width: 25px;
+  height: 25px;
+  border-radius: 90px ;
+  border: none;
+  margin-top: 5px;
+}
+.quantity{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.productC{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  width: 100px;
+  padding: 10px;
+  border: lightgray solid 1px;
+  border-radius:8px;
+}
+.ACart{
+  width: 150px;
+  padding: 10px;
+  border: solid 1px;
+  border-radius:8px;
+  text-align: center;
+  margin-left: 10px;
+}
+.dline{
+  border-bottom: solid 1px lightgray;
+  width: 650px;margin-top: 50px;
+}
+.k-pf{
+  width: 50px;
+  height: 50px;
+}
+.review-Border{
+  display: flex;
+  flex-direction: row;
+  border: solid 1px lightgray;
+  border-radius: 15px ;
+}
+
+
+.kheang2-container{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+.inputbox{
+  width: 350px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid 1px lightgray;
+  
+}
+.btn-login{
+  width: 150px;
+  height: 40px;
+  border: solid 1px  ;
+  background-color: white;border-radius: 8px;
+}
+.register-des{
+  width: 400px;
+  font-size: 13px;
+}
+
+@media (max-width: 575.98px) {
+  .kheang2-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-content{
+    	margin-left: 50px;
+      margin-top: 100px;
+  }
+  
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .kheang2-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-content{
+    	margin-left: 50px;
+      margin-top: 100px;
+  }
+}
