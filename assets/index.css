@@ -169,16 +169,6 @@ body{
     z-index: 1; /* Ensure the links are above the pseudo-element */
   }
   
-  .tito-shop-bg-filter{
-    background-color: #FAF4F4;
-    padding: 35px 98px;
-  }
-
-  .tito-shop-bg-filter-show{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-  }
 
 /* Extra Small (xs) */
 @media (max-width: 575.98px) {

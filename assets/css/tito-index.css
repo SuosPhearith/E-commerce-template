@@ -14,7 +14,7 @@
 .tito-home-btn-shop{
     width: 255px;
     height: 64px;
-    
+
 }
 
 .tito-home-bg2{
@@ -105,12 +105,54 @@
      height: 600px;
 }
 
+.tito-shop-bg-filter{
+    background-color: #FAF4F4;
+    
+}
 
+.tito-shop-bg-filter-icon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.tito-shop-bg-filter-show{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.tito-shop-product-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tito-shop-product-img img{
+    width: 300px;
+    height: 300px;
+}
+
+.tito-shop-delivery{
+    height: 300px;
+    background-color: #FAF4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Extra Small (xs) */
 @media (max-width: 575.98px) {
     /* Styles for xs screens go here */
+    .tito-shop-bg-filter{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
 }
   
