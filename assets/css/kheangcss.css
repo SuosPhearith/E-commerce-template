@@ -2,19 +2,24 @@
 .kheang-container{
   display: flex;
   width: 100vw;
-  padding: 180px;
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: column;
+}
+.location{
+  display: flex;
+  margin-left: 5%;
 }
 .kheang-body{
   margin-top: 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .body-img{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .body-rate{
   display: flex;
@@ -24,6 +29,11 @@
   width: 250px;
 }
 .body-detail{
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
   
 }
 .text-kheang{
@@ -78,7 +88,7 @@
 }
 .dline{
   border-bottom: solid 1px lightgray;
-  width: 650px;margin-top: 50px;
+  width: auto;margin-top: 50px;
 }
 .k-pf{
   width: 50px;
@@ -89,6 +99,10 @@
   flex-direction: row;
   border: solid 1px lightgray;
   border-radius: 15px ;
+}
+.review{
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -119,6 +133,7 @@
   font-size: 13px;
 }
 
+
 @media (max-width: 575.98px) {
   .kheang2-container{
     flex-direction: column;
@@ -127,6 +142,14 @@
   .right-content{
     	margin-left: 50px;
       margin-top: 100px;
+  }
+  .kheang-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .kheang-body{
+    display: flex;
+    flex-direction: column;
   }
   
 }
@@ -138,5 +161,16 @@
   .right-content{
     	margin-left: 50px;
       margin-top: 100px;
+  }
+  .kheang-body{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .kheang-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
